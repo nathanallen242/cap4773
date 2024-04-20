@@ -8,6 +8,16 @@ Explore the essence of our project and its overarching objectives here. *(0.5% c
 ### Motivation and RQs
 Discover what drives our research and review the specific research questions we are addressing. *(1% common grade weight)*
 
+#### Research Questions
+- **RQ1:** What are the characteristics of popular & successful repositories?
+- **RQ2:** How can we determine false actors? What makes a GitHub user suspicious?
+- **RQ3:** How can development consistency affect repository popularity?
+
+#### Hypotheses
+- **H1:** The factors influencing repository popularity differ from those determining its success.
+- **H2:** False actors have drastically different activity and account behavior than real accounts.
+- **H3:** The popularity of a repository is positively correlated with development consistency.
+
 ### Literature Review
 Access a synthesis of existing knowledge and theoretical frameworks relevant to our research topic. *(0.5% common grade weight)*
 
@@ -28,6 +38,7 @@ The following pre-processing steps were applied to the datasets used in this res
 3. **Feature Creation:** New features were derived from existing columns as required.
 4. **Feature Selection:** Utilized traditional machine learning techniques to retain only relevant features.
 
+#### Datasets
 - **A Representative User-centric Dataset of 10 Million GitHub Developers**
   - Source: [Kaggle Dataset](https://www.kaggle.com/datasets/johntukey/github-dataset)
   - Description: 50 GB, user-centric JSON file containing data on GitHub users and their repositories.
