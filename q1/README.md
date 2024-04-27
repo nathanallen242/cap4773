@@ -84,7 +84,7 @@ This measure helps in identifying repositories whose descriptions are semantical
 To classify repositories as claiming state-of-the-art status, we leveraged the gpt3.5 turbo API. This advanced AI tool assists in tagging by analyzing the context of repository descriptions and aligning them with our predefined criteria for SoTA claims.
 
 $$
-\text{Tags} = \text{AI\_Tag}(E_r, \text{GPT-3.5 Turbo})
+\text{Tags} = \text{AI Tag}(E_r, \text{GPT-3.5 Turbo})
 $$
 
 Where \( \text{Tags} \) are the labels assigned by the AI based on the analysis of the embeddings \( E_r \) under the guidance of GPT-3.5 Turbo's contextual understanding capabilities.
