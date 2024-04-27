@@ -1,4 +1,4 @@
-# Research Question 3: What are the characteristics of popular & successful repositories?
+# Research Question 1: What are the characteristics of popular & successful repositories?
 
 ### Authors
 Hashem Alsailani, Nathan Allen
