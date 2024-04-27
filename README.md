@@ -5,6 +5,9 @@ This central repository will contain all relevant [Jupyter](https://jupyter.org/
 ### Abstract
 Explore the essence of our project and its overarching objectives here. *(0.5% common grade weight)*
 
+*In the rapidly evolving scene of open source development, Github emerged as a social media platform helping software engineers collaborate. This study will explore various Github repositories and user behaviours to understand the dynamics of repository popularity, success, and the identification of false actors within the platform. First, we investigate the characteristics of popular and successful github repo repositories, with the intention of finding that contributing factors of success and popularity are not the same. We look at factors such as number of, number of forks, programming language, etc. We define popularity as the number of stars, a popular consideration by past papers. We also define success as a project claiming to be state of the art. Second, we address the detection of false actors in the social community. We examine the characteristics of false actors and analyze their potential impact on popularity. Lastly, we assess the impact of development consistency vs irregularity on popularity. Our findings aim to provide insights to factors that can enhance repository success, popularity, and credibility in GitHub.*
+
+
 ### Motivation and RQs
 Discover what drives our research and review the specific research questions we are addressing. *(1% common grade weight)*
 
