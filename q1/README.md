@@ -57,11 +57,11 @@ $$
 T_d = \text{Tokenize}(D, \text{model})
 $$
 
-Where $T_d$ represents the tokenized description, and $ D $ is the original repository description. The tokenization model aids in refining the content to features more pertinent to our analytical goals.
+Where $T_d$ represents the tokenized description, and $D $is the original repository description. The tokenization model aids in refining the content to features more pertinent to our analytical goals.
 
 ##### II. Embedding Conversion + Similarity Score
 
-Following pre-processing, the tokenized repository descriptions $ T_d $ and the ML phrases are transformed into embeddings. Embeddings are high-dimensional vectors that capture semantic meanings of the text, allowing computational models to process text-based data effectively. We utilized techniques that convert text into vector space models, where the proximity of vectors indicates semantic similarities.
+Following pre-processing, the tokenized repository descriptions $T_d$ and the ML phrases are transformed into embeddings. Embeddings are high-dimensional vectors that capture semantic meanings of the text, allowing computational models to process text-based data effectively. We utilized techniques that convert text into vector space models, where the proximity of vectors indicates semantic similarities.
 
 $$
 E_r = \text{Embed}(T_d)
@@ -71,7 +71,7 @@ $$
 E_m = \text{Embed}(M)
 $$
 
-Where $E_r$ is the embedding of the repository description and $ E_m $ is the embedding of ML phrases. The embeddings are then compared using cosine similarity, a metric used to measure how similar the documents are irrespective of their size.
+Where $E_r$ is the embedding of the repository description and $E_m$ is the embedding of ML phrases. The embeddings are then compared using cosine similarity, a metric used to measure how similar the documents are irrespective of their size.
 
 $$
 \text{Cosine Similarity} = \frac{E_r \cdot E_m}{\|E_r\| \|E_m\|}
@@ -87,7 +87,7 @@ $$
 \text{Tags} = \text{AI Tag}(E_r, \text{GPT-3.5 Turbo})
 $$
 
-Where $ \text{Tags} $ are the labels assigned by the AI based on the analysis of the embeddings $ E_r $ under the guidance of GPT-3.5 Turbo's contextual understanding capabilities.
+Where $\text{Tags}$ are the labels assigned by the AI based on the analysis of the embeddings $E_r$ under the guidance of GPT-3.5 Turbo's contextual understanding capabilities.
 
 This step-by-step approach ensures a rigorous and nuanced classification of GitHub repositories, providing insights into the landscape of claimed innovations within the ML community. By linking textual analysis with AI-driven tagging, our methodology supports a robust assessment of SoTA claims in public repository descriptions, crucial for the dynamic field of machine learning research.
 
