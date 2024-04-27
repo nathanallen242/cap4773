@@ -38,7 +38,7 @@ To optimize the input feature set for predicting the annual metrics of stars, fo
 The mathematical formulation for LASSO Regression is represented as:
 
 $$
-\min_{\beta} \left\{ \frac{1}{2n} \sum_{i=1}^{n} (y_i - X_i \beta)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\}
+\min_{\beta}\left\{ \frac{1}{2n} \sum_{i=1}^{n} (y_i - X_i \beta)^2 + \lambda \sum_{j=1}^{p} |\beta_j|\right\}
 $$
 
 In this formula, $y_i$ denotes the dependent variable vector, $X_i$ represents the matrix of input features, $\beta$ are the coefficients, and $\lambda$ is the regularization parameter that controls the extent of sparsity in the coefficient vector $\beta$. The objective is to minimize the residual sum of squares subject to a penalty on the absolute size of the coefficients. This penalty term encourages the solution to have fewer non-zero coefficients, effectively reducing the number of features in the model.
