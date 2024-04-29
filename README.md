@@ -59,10 +59,4 @@ For comprehensive results, please refer to the research paper.
 For detailed discussions, insights, and interpretations, please refer to the research paper.
 
 ### References
-Consult this section for a list of all academic and technical resources referenced in our research. *(0.5% common grade weight)*
-
-- H. Borges, A. Hora, and M. T. Valente, "Understanding the Factors That Impact the Popularity of GitHub Repositories," 2016 IEEE International Conference on Software Maintenance and Evolution (ICSME), Raleigh, NC, USA, 2016, pp. 334-344, doi: 10.1109/ICSME.2016.31.
-- Hudson Borges, Marco Tulio Valente, "What’s in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform," Journal of Systems and Software, Volume 146, 2018, Pages 112-129, ISSN 0164-1212, https://doi.org/10.1016/j.jss.2018.09.016.
-- Phylum Research Team, “Detecting potential Bad Actors in GitHub,” Phylum (2021).
-- Golzadeh, M., Decan, A., Legay, D., & Mens, T. (2021). "A ground-truth dataset and classification model for detecting bots in GitHub issue and PR comments," Journal of Systems and Software, 175, 110911. https://doi.org/10.1016/j.jss.2021.110911
-- Grönlund, Mårten and Jonathan Jefford-Baker, “Measuring correlation between commit frequency and popularity on GitHub.” (2017).
+Please refer to the research paper for a comprehensive list of all references.
