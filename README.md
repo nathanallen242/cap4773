@@ -5,8 +5,8 @@ This central repository will contain all relevant [Jupyter](https://jupyter.org/
 ### Abstract
 Explore the essence of our project and its overarching objectives here. *(0.5% common grade weight)*
 
-*In the rapidly evolving scene of open source development, Github emerged as a social media platform helping software engineers collaborate. This study will explore various Github repositories and user behaviours to understand the dynamics of repository popularity, success, and the identification of false actors within the platform. First, we investigate the characteristics of popular and successful github repo repositories, with the intention of finding that contributing factors of success and popularity are not the same. We look at factors such as number of, number of forks, programming language, etc. We define popularity as the number of stars, a popular consideration by past papers. We also define success as a project claiming to be state of the art. Second, we address the detection of false actors in the social community. We examine the characteristics of false actors and analyze their potential impact on popularity. Lastly, we assess the impact of development consistency vs irregularity on popularity. Our findings aim to provide insights to factors that can enhance repository success, popularity, and credibility in GitHub.*
-
+*In the dynamic landscape of open source software development on GitHub, understanding the nuances between repository popularity and success becomes essential. This study examines various GitHub repositories and user behaviors to discern the dynamics of repository popularity, the markers of success, and the detection of false actors within the platform. Initially, we explore the characteristics of popular and successful repositories, finding that the factors contributing to success and popularity are not identical. Popularity is quantified by the number of stars, commonly used in previous studies, while success is defined in terms of a project’s state-of-the-art claims. Our investigation reveals only a low positive correlation between development consistency, measured through commit activities, and repository stars, suggesting that regular updates alone do not guarantee popularity. Furthermore, we delve into the detection of false actors within the community, analyzing their characteristics and the potential impact on repository metrics. Our results align with prior findings in identifying suspicious behaviors, enhancing understanding of how authenticity affects repository evaluations. However, our research faced limitations, including the inability to apply methods across the entire dataset and difficulties in
+discerning connections within the network of interactions. Despite these challenges, our findings provide valuable insights into the factors that can enhance repository success, popularity, and credibility on GitHub.*
 
 ### Motivation and RQs
 Discover what drives our research and review the specific research questions we are addressing. *(1% common grade weight)*
@@ -51,13 +51,12 @@ The following pre-processing steps were applied to the datasets used in this res
   - Description: ~3.1 million rows containing repository-related information within the GitHub ecosystem; more repository-centric.
 
 ### Method
-For detailed methodologies, please follow the specific directory linked to each research question.
-
+For detailed methodologies, please refer to the research paper.
 ### Results
-For comprehensive results, please consult the specific directory for each research question.
+For comprehensive results, please refer to the research paper.
 
 ### Discussion
-For detailed discussions, insights, and interpretations, navigate to the relevant directory as per each research question.
+For detailed discussions, insights, and interpretations, please refer to the research paper.
 
 ### References
 Consult this section for a list of all academic and technical resources referenced in our research. *(0.5% common grade weight)*
